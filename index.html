@@ -16,8 +16,60 @@
       rel="stylesheet"
     />
 
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="./styles/desktop.css"
+      media="screen and (min-width 920px)"
+    />
+
     <title>Frontend Mentor | Pricing Component</title>
   </head>
-  <body></body>
+  <body>
+    <main class="pricing_container">
+      <h1 class="pricing_title">Our Pricing</h1>
+      <div class="pricing_toggle">
+        <p>Annually</p>
+        <label class="switch">
+          <input type="checkbox" />
+          <span class="slider round"></span>
+        </label>
+        <p>Monthly</p>
+      </div>
+      <!-- CARDS -->
+      <div class="cards_container">
+        <div class="card">
+          <h3 class="card_title">Basic</h3>
+          <p class="card_price">&dollar;199.99</p>
+          <div class="card_description">
+            <p>500 GB Storage</p>
+            <p>2 Users Allowed</p>
+            <p>Send up to 3GB</p>
+          </div>
+          <button class="card_cta">LEARN MORE</button>
+        </div>
+        <div class="main_card">
+          <h3 class="card_title">Proffesional</h3>
+          <p class="card_price">&dollar;249.99</p>
+          <div class="card_description">
+            <p>1 TB Storage</p>
+            <p>5 Users Allowed</p>
+            <p>Send up to 10 GB</p>
+          </div>
+          <button class="card_cta">LEARN MORE</button>
+        </div>
+        <div class="card">
+          <h3 class="card_title">Master</h3>
+          <p class="card_price">&dollar;399.99</p>
+          <div class="card_description">
+            <p>2 TB Storage</p>
+            <p>10 Users Allowed</p>
+            <p>Send up to 20 GB</p>
+          </div>
+          <button class="card_cta">LEARN MORE</button>
+        </div>
+      </div>
+    </main>
+  </body>
   <script src="./scripts.js"></script>
 </html>
