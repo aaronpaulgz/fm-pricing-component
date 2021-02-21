@@ -1,0 +1,84 @@
+body {
+  height: 100vh;
+  background-color: var(--Very-Light-Grayish-Blue);
+  background-image: url(../images/bg-top.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 360px;
+}
+
+.pricing_title {
+  font-size: 3rem;
+  margin: 64px 0 32px 0;
+}
+
+.pricing_toggle > p {
+  font-size: 1.4rem;
+}
+
+.cards_container {
+  display: flex;
+  flex-direction: row;
+  min-width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 82px 0 0 0;
+}
+
+.cards_container .card {
+  margin: 0 0 0px 0;
+}
+
+.card .card_title {
+  font-size: 2rem;
+  margin: 12px 0 0 0;
+}
+
+.card .card_price {
+  font-size: 6rem;
+  margin: 32px 0;
+}
+
+.card .card_description {
+  border-top: solid 0.5px hsla(234, 14%, 74%, 0.5);
+}
+
+.card .card_description > p {
+  font-size: 1.2rem;
+}
+
+.cards_container .main_card {
+  margin: 0 0 0px 0;
+  padding: 48px 24px;
+}
+
+.main_card .card_title {
+  font-size: 2rem;
+  margin: 12px 0 0 0;
+}
+
+.main_card .card_price {
+  font-size: 6rem;
+  margin: 24px 0;
+}
+
+.main_card .card_description {
+  border-top: solid 0.5px hsla(255, 100%, 100%, 0.5);
+}
+
+.main_card .card_description > p {
+  border-bottom: solid 0.5px hsla(255, 100%, 100%, 0.5);
+  padding: 12px 0;
+  font-size: 1.2rem;
+}
+
+.main_card .card_cta {
+  margin: 36px 0 0 0;
+}
+
+.main_card .card_cta:hover {
+  margin: 36px 0 0 0;
+  background: transparent;
+  border: solid 2px white;
+  color: white;
+}

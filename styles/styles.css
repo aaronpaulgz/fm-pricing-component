@@ -135,7 +135,7 @@ input:checked + .slider:before {
   text-align: center;
   padding: 24px;
   border-radius: 10px;
-  color: vaR(--Dark-Grayish-Blue);
+  color: var(--Dark-Grayish-Blue);
   min-width: 280px;
   width: 320px;
   max-width: 380px;
@@ -170,6 +170,12 @@ input:checked + .slider:before {
   background: linear-gradient(var(--Linear-Gradient));
   color: white;
   font-size: 1rem;
+}
+
+.card .card_cta:hover {
+  background: transparent;
+  border: solid 2px hsl(237, 63%, 64%);
+  color: hsl(237, 63%, 64%);
 }
 
 .cards_container .main_card {
@@ -213,4 +219,14 @@ input:checked + .slider:before {
   background: white;
   color: hsl(237, 63%, 64%);
   font-size: 1rem;
+}
+
+.main_card .card_cta:hover {
+  background: transparent;
+  border: solid 2px white;
+  color: white;
+}
+
+.monthly {
+  display: none;
 }
